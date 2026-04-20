@@ -32,7 +32,7 @@ jobs:
 
       - name: Sync to S3
         run: |
-          aws s3 sync out/ s3://dalamehmyportfolio.com --delete
+          aws s3 sync out/ s3://dalamehmyportfolio.com # --delete
 
       - name: Invalidate CloudFront Cache
         run: |
