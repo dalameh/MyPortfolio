@@ -77,7 +77,7 @@ const projects = [
     type: "Meta",
     title: "This Portfolio",
     description:
-      "You are looking at it. Built with Next.js and hosted on AWS. S3 stores the assets behind Origin Access Control (OAC), while CloudFront serves them globally at the edge. Cloudflare manages the DNS and edge security, integrated with AWS Certificate Manager to provide end-to-end TLS encryption via a secure asymmetric handshake. Feel free to fork it on GitHub if you want to build your own portfolio with the same design and tech stack!",
+      "You are looking at it. Built with Next.js and hosted on AWS. S3 stores the assets behind Origin Access Control (OAC), while CloudFront serves them globally at the edge. Cloudflare manages the DNS and edge security, integrated with AWS Certificate Manager to provide end-to-end TLS encryption via a secure asymmetric handshake. Feel free to clone the repo. locally if you want to build your own portfolio with the same design and tech stack!",
     tech: [
       { name: "Amazon S3", Icon: "/aws/Arch_Amazon-Simple-Storage-Service_64.svg" },
       { name: "CloudFront", Icon: "/aws/Arch_Amazon-CloudFront_64.svg" },
