@@ -43,10 +43,11 @@ const projects = [
     index: "03",
     year: "2026",
     type: "Systems",
-    title: "SEC Intelligence Agent",
+    title: "Investment Intelligence Agent",
     description:
       // "A RAG pipeline eliminating weeks of manual research for investment teams — analysts can instantly surface risk factors, revenue trends, and forward guidance across SEC 10-K filings in plain English, with raw documents parsed, chunked, and cleaned through a Medallion architecture on Delta Lake, vectorized into Vector Search, and served via a Mosaic AI Agent, with MLflow tracking experiments and retrieval metrics for full observability.",
-      "A RAG pipeline that eliminates weeks of manual research for investment teams — analysts can instantly surface risk factors, revenue trends, and forward guidance across SEC 10-K filings, parsed, chunked, and vectorized through a Medallion architecture on Delta Lake, served via a Mosaic AI Agent, with MLflow ensuring full observability.",
+      "An end-to-end RAG pipeline that eliminates weeks of manual research by unifying SEC filings, earnings transcripts, and macro indicators into a time-aligned Medallion architecture. This agent allows analysts to instantly cross-reference official filings against unscripted executive sentiment and market data in real-time. The system is served via a Mosaic AI Agent for context-aware retrieval and instrumented with MLflow for full observability and automated evaluation.",
+      // "A multi-source financial intelligence platform that eliminates weeks of manual research for investment teams — analysts can instantly surface risk factors, revenue trends, and forward guidance across SEC 10-K filings, parsed, chunked, and vectorized through a Medallion architecture on Delta Lake, served via a Mosaic AI Agent, with MLflow ensuring full observability.",
       tech: [
       { name: "Databricks", Icon: "/aws/Databricks.svg" },
       { name: "Amazon S3", Icon: "/aws/Arch_Amazon-Simple-Storage-Service_64.svg" },
